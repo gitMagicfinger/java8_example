@@ -9,10 +9,10 @@ interface Func {
 	public int calc(int a, int b);
 }
 
-public class Main01 {
+public class FunctionalInterfaceExample01 {
 	public static void main(String[] args) {
-		Func add = (int a, int b) -> a + b;
-		Func sub = (int a, int b) -> { return a - b; };
+		Func add = (int a, int b) -> { return a + b; };
+		Func sub = (a, b) -> a - b;
 		int result = add.calc(1,2) + sub.calc(4, 2);
 		System.out.println(result);
 	}

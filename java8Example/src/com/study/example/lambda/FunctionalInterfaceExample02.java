@@ -5,10 +5,10 @@ interface Compare {
 	public int compareTo(int value1, int value2);
 }
 
-public class Main02 {
+public class FunctionalInterfaceExample02 {
 	
 	public static void main(String[] args) {
-		Compare compare = (i, j) -> { return i - j;};
+		Compare compare = (i, j) -> i - j;
 		exec(compare);
 	}
 	
