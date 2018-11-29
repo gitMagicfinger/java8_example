@@ -6,7 +6,7 @@ public class Main {
 		System.out.println("My Age is " + new ToBeImplementsClass().getCount(10));
 
 		System.out.println(TobeInterface.getMyName("Hong Gil Dong"));
-	}
+	} 
 
 }
 

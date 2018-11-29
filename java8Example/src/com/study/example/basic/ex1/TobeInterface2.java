@@ -5,3 +5,4 @@ public interface TobeInterface2 {
         return value;
     }
 }
+ 

@@ -7,7 +7,7 @@ public interface TobeInterface {
 
     default int getCount(int value) {
         return TobeInterface.age + value;
-    }
+    } 
 
     static String getMyName(String name) {
         return "My Name is " + name;

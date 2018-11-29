@@ -38,7 +38,7 @@ public class HigherOrderFunctionExamples {
 		
 		final Function<Integer, Function<Integer, Integer>> plus1 = f3.apply(1);
 		final Function<Integer, Integer> plus2 = plus1.apply(2);
-		final Integer plus3 = plus2.apply(3);
+		final Integer plus3 = plus2.apply(3); 
 		System.out.println(plus3);
 	}
 	
